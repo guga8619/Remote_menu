@@ -1,0 +1,71 @@
+QMainWindow{
+    background-color:#222;
+}
+QListWidget {
+    color: #FFFFFF;
+    background-color: #33373B;
+}
+
+QListWidget::item {
+    height: 50px;
+}
+
+QListWidget::item:selected {
+    background-color: #2ABf9E;
+}
+
+QLabel {
+    background-color: #FFFFFF;
+}
+QPushButton {
+    background-color: transparent;
+    font-size: 14px;
+    border:1px solid #2ABf9E;
+    color:#2ABf9E;
+}
+QPushButton:hover {
+    background-color: #2ABf9E;
+    color:black;
+}
+
+QLabel{
+    background-color:#222;
+    color:white;
+}
+QLineEdit{
+    background-color:#333;
+    border-bottom:1px solid white;
+    color: white;
+    text-align:center;
+}
+QProgressBar{
+    background:#222;
+    color:white;
+}
+QWidget#scrollAreaWidgetContents{
+	background-color: #222;
+}
+QScrollBar:vertical {
+	border: none;
+	background: rgb(75, 75, 75);
+	width: 14px;
+	margin: 15px 0 15px 0;
+	border-radius: 0px;
+}
+QScrollBar:horizontal {
+	border: none;
+	background: rgb(75, 75, 75);
+	width: 14px;
+	margin: 15px 0 15px 0;
+	border-radius: 0px;
+}
+QProgressBar{
+        border: none;
+        color: white;
+        text-align: center;
+        background: rgb(68, 69, 73);
+}
+QProgressBar::chunk {
+        border: none;
+        background: #2ABf9E;
+}
